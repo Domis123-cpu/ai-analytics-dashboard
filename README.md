@@ -46,6 +46,7 @@ relacja 1‑wiele (customer → sales)
 
 🧠 Architektura systemu
 Kod
+```
 ┌──────────────────────────┐
 │        Frontend          │
 │   React + Vite + Axios   │
@@ -62,8 +63,12 @@ Kod
 │       PostgreSQL         │
 │ customers / sales tables │
 └──────────────────────────┘
+```
+
 📁 Struktura projektu
 Kod
+
+```
 ai-analytics-dashboard/
 │
 ├── backend/
@@ -84,17 +89,16 @@ ai-analytics-dashboard/
     ├── package.json
     ├── vite.config.js
     └── README.md
+```
+    
 🔧 Instalacja i uruchomienie
 1️⃣ Backend
 Wejdź do folderu backend:
-bash
 cd backend
 Utwórz i aktywuj środowisko:
-bash
 python -m venv .venv
 .\.venv\Scripts\activate
 Zainstaluj zależności:
-bash
 pip install -r requirements.txt
 Skonfiguruj .env:
 Kod
@@ -103,7 +107,6 @@ DB_PASS=sales_password
 DB_HOST=localhost
 DB_NAME=sales_db
 Uruchom backend:
-bash
 uvicorn app.main:app --reload
 Backend działa na:
 
@@ -112,13 +115,10 @@ Backend działa na:
 
 2️⃣ Frontend
 Wejdź do folderu frontend:
-bash
 cd frontend
 Zainstaluj zależności:
-bash
 npm install
 Uruchom aplikację:
-bash
 npm run dev
 Frontend działa na:
 
@@ -149,8 +149,6 @@ GET /sales/forecast	prognoza sprzedaży
 
 🧪 Testy
 Projekt zawiera testy jednostkowe i integracyjne:
-
-bash
 pytest
 🧑‍💻 Autor
 Projekt przygotowany przez Małgorzatę  
