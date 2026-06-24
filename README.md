@@ -151,7 +151,7 @@ GET /sales/forecast	prognoza sprzedaży
 Projekt zawiera testy jednostkowe i integracyjne:
 pytest
 🧑‍💻 Autor
-Projekt przygotowany przez Małgorzatę  
+Projekt przygotowany przez Dominika
 Repozytorium: https://github.com/Domis123-cpu/ai-analytics-dashboard
 
 
